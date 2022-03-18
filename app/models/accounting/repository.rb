@@ -11,9 +11,9 @@ module Accounting
         end
       end
 
-      def check_cashflow2(person)
-        !(Debtors::Enquiries.find_worst_debtors == person)
-      end
+      # def check_cashflow2(person)
+      #   !(Debtors::Enquiries.find_worst_debtors == person)
+      # end
     end
   end
 end

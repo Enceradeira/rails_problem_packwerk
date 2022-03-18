@@ -1,4 +1,5 @@
-enforce_privacy: true
+enforce_privacy: 
+  - "::Debtors::Enquiries"
 enforce_dependencies: true
 dependencies:
   - app/models/accounting
